@@ -14,3 +14,6 @@ hi def link kword Statement
 syn match num '[0-9]\+'
 hi def link num Number
 
+syn match fction '[a-zA-Z]\+\((.*)\)\@='
+hi def link fction Function
+
